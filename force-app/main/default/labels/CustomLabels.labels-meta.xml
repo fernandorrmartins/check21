@@ -17,11 +17,27 @@
         <value>Endpoint service not found!</value>
     </labels>
     <labels>
-        <fullName>StaticResourceBrasilAPIHolidayResponse</fullName>
+        <fullName>StaticResourceBrasilAPIHolidayResponseStatusCode200</fullName>
         <categories>Staticresource</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Static resource: Brasil API Holiday Response</shortDescription>
-        <value>ServiceResponseBrazilAPIHoliday</value>
+        <value>ServiceResponseBrazilAPIHolidayStatusCode200</value>
+    </labels>
+    <labels>
+        <fullName>StaticResourceBrasilAPIHolidayResponseStatusCode404</fullName>
+        <categories>Staticresource</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Static resource: Brasil API Holiday Response</shortDescription>
+        <value>ServiceResponseBrazilAPIHolidayStatusCode404</value>
+    </labels>
+    <labels>
+        <fullName>StaticResourceBrasilAPIHolidayResponseStatusCode500</fullName>
+        <categories>Staticresource</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Static resource: Brasil API Holiday Response</shortDescription>
+        <value>ServiceResponseBrazilAPIHolidayStatusCode500</value>
     </labels>
 </CustomLabels>
