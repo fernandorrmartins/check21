@@ -6,7 +6,7 @@
     <fieldManageability>DeveloperControlled</fieldManageability>
     <inlineHelpText>Represent what will be the type of the request, like: GET, POST, PATH, UPDATE, DELETE.</inlineHelpText>
     <label>Type of request</label>
-    <required>false</required>
+    <required>true</required>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
