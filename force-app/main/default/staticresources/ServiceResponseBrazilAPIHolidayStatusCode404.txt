@@ -1,0 +1,1 @@
+{"type": "feriados_range_error","message": "Ano fora do intervalo suportado entre 1900 e 2199."}
