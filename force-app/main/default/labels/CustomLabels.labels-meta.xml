@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>EndpointServiceDevelopernameBrasilAPIHolidays</fullName>
+        <categories>Endpoint</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Endpoint Service Developername: Brasil API Holidays</shortDescription>
+        <value>BrasilAPIHolidays</value>
+    </labels>
+    <labels>
+        <fullName>HolidaysServiceExceptionEndpointServiceNotFound</fullName>
+        <categories>Exception</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Holidays Service Exception: Endpoint service not found</shortDescription>
+        <value>Endpoint service not found!</value>
+    </labels>
+    <labels>
+        <fullName>StaticResourceBrasilAPIHolidayResponse</fullName>
+        <categories>Staticresource</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Static resource: Brasil API Holiday Response</shortDescription>
+        <value>ServiceResponseBrazilAPIHoliday</value>
+    </labels>
+</CustomLabels>

@@ -7,7 +7,6 @@
     <inlineHelpText>The path refer to this endpoint.</inlineHelpText>
     <label>Endpoint</label>
     <referenceTo>Endpoint__mdt</referenceTo>
-    <relationshipLabel>Endpoint services</relationshipLabel>
     <relationshipName>EndpointServices</relationshipName>
     <required>true</required>
     <type>MetadataRelationship</type>
