@@ -26,7 +26,7 @@
         <label>URL</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Endpoint__c</field>
             </layoutItems>
         </layoutColumns>

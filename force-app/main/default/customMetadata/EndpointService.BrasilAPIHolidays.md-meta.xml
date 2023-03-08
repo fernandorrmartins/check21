@@ -7,11 +7,11 @@
         <value xsi:type="xsd:string">BrasilAPI</value>
     </values>
     <values>
-        <field>Path__c</field>
-        <value xsi:type="xsd:string">api/feriados/v1/{0}</value>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">GET</value>
     </values>
     <values>
-        <field>TypeRequest__c</field>
-        <value xsi:type="xsd:string">GET</value>
+        <field>Path__c</field>
+        <value xsi:type="xsd:string">api/feriados/v1/{0}</value>
     </values>
 </CustomMetadata>

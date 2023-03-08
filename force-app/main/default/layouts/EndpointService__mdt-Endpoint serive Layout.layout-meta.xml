@@ -11,7 +11,7 @@
                 <field>MasterLabel</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Path__c</field>
             </layoutItems>
         </layoutColumns>
@@ -21,8 +21,8 @@
                 <field>Endpoint__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TypeRequest__c</field>
+                <behavior>Required</behavior>
+                <field>Method__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
