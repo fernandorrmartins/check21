@@ -29,4 +29,15 @@ public without sharing class NationalHolidaysSelector {
         ];
         return nationalHolidaysList;
     }
+
+    public List<National_Holidays__c> getNextHolidays()
+    {
+        List<National_Holidays__c> nationalHolidaysList = [
+            SELECT Name, Date__c, Type__c
+            FROM National_Holidays__c
+            WHERE Date__c > TODAY
+            ORDER By Date__c ASC
+        ];
+        return nationalHolidaysList;
+    }
 }

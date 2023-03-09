@@ -1,6 +1,5 @@
 @isTest
-class NationalHolidaysSelectorTest
-{
+class NextHolidayControllerTest {
     @TestSetup
     static void setup()
     {
@@ -27,22 +26,12 @@ class NationalHolidaysSelectorTest
     }
 
     @isTest
-    static void getByYearTest()
+    static void getNextHolidayTest()
     {
         Test.startTest();
-        List<National_Holidays__c> nationalHolidaysList = NationalHolidaysSelector.getInstance().getByYear(new Set<Integer> { System.today().year() });
+        National_Holidays__c nationalHolidayRecord = NextHolidayController.getNextHoliday();
         Test.stopTest();
-        System.assertEquals(3, nationalHolidaysList.size());
-    }
-
-    @isTest
-    static void getNextHolidaysTest()
-    {
-        Test.startTest();
-        List<National_Holidays__c> nationalHolidaysList = NationalHolidaysSelector.getInstance().getNextHolidays();
-        Test.stopTest();
-        /* Expects 2, because the third record created is from today, and the selector consider only tomorrow or greater. */
-        System.assertEquals(2, nationalHolidaysList.size());
-        System.assert(nationalHolidaysList.get(0).Date__c < nationalHolidaysList.get(1).Date__c);
+        System.assertNotEquals(null, nationalHolidayRecord);
+        System.assertEquals(nationalHolidayRecord.Date__c, System.today().addDays(1));
     }
 }
