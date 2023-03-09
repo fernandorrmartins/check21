@@ -32,6 +32,6 @@ class NextHolidayControllerTest {
         National_Holidays__c nationalHolidayRecord = NextHolidayController.getNextHoliday();
         Test.stopTest();
         System.assertNotEquals(null, nationalHolidayRecord);
-        System.assertEquals(nationalHolidayRecord.Date__c, System.today().addDays(1));
+        System.assertEquals(nationalHolidayRecord.Date__c, System.today());
     }
 }

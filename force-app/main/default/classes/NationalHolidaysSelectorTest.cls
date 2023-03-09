@@ -41,8 +41,8 @@ class NationalHolidaysSelectorTest
         Test.startTest();
         List<National_Holidays__c> nationalHolidaysList = NationalHolidaysSelector.getInstance().getNextHolidays();
         Test.stopTest();
-        /* Expects 2, because the third record created is from today, and the selector consider only tomorrow or greater. */
-        System.assertEquals(2, nationalHolidaysList.size());
+        System.assertEquals(3, nationalHolidaysList.size());
         System.assert(nationalHolidaysList.get(0).Date__c < nationalHolidaysList.get(1).Date__c);
+        System.assert(nationalHolidaysList.get(1).Date__c < nationalHolidaysList.get(2).Date__c);
     }
 }

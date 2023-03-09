@@ -35,7 +35,7 @@ public without sharing class NationalHolidaysSelector {
         List<National_Holidays__c> nationalHolidaysList = [
             SELECT Name, Date__c, Type__c
             FROM National_Holidays__c
-            WHERE Date__c > TODAY
+            WHERE Date__c >= TODAY
             ORDER By Date__c ASC
         ];
         return nationalHolidaysList;
