@@ -1,0 +1,1 @@
+{"type": "feriados_error","message": "Erro ao calcular feriados."}
