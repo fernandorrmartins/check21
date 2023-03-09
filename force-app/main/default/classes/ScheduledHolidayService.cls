@@ -28,10 +28,9 @@ global class ScheduledHolidayService implements Schedulable {
             job
         );
     }
-
-    @TestVisible
+    
     @Future(callout=true)
-    private static void execute(Integer year, Integer month, Integer day)
+    public static void execute(Integer year, Integer month, Integer day)
     {
         Date nextExecutionDt = Date.newInstance(year, month, day);
         Boolean isValid = ScheduledHolidayService.checkValid(nextExecutionDt);
