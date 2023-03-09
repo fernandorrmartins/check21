@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title={label.LWCNextHolidayTitle} icon-name="standard:holiday_operating_hours">
+        <p if:true={hasNextHoliday} class="slds-p-horizontal_small">
+            The Next Holiday is <b>{getName}</b> and it will be on <b>{getDate}</b> and we have <b>{getDaysUntilNextHoliday}</b> day's until it.
+        </p>
+        <p if:true={isToday} class="slds-p-horizontal_small">
+            Enjoy your <b>{getName}</b> holiday!
+        </p>
+    </lightning-card>
+</template>

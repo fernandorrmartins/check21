@@ -17,6 +17,14 @@
         <value>Endpoint service not found!</value>
     </labels>
     <labels>
+        <fullName>LWCNextHolidayTitle</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LWC: Next Holiday Title</shortDescription>
+        <value>Next Holiday</value>
+    </labels>
+    <labels>
         <fullName>StaticResourceBrasilAPIHolidayResponseStatusCode200</fullName>
         <categories>Staticresource</categories>
         <language>en_US</language>
